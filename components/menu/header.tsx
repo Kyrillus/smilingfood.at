@@ -20,7 +20,7 @@ function Header({navbarOpen, setNavbarOpen}: { navbarOpen: any, setNavbarOpen: a
                     <Image className="hover:cursor-pointer " onClick={() => {
                         setNavbarOpen(false);
                         scrollToLanding();
-                    }} src="/concept_logo_circle_v4.png"
+                    }} src="/logo_circle.png"
                            layout="fill"></Image>
                 </div>
                 <div className="hidden lg:flex space-x-14 pr-10 font-semibold ">
