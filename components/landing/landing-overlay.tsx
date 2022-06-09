@@ -5,14 +5,14 @@ function LandingOverlay() {
     const inputRef = useRef(null);
     const [state, setState] = useState("IDLE");
 
-    const subscribeUser = async (e) => {
+    const subscribeUser = async (e: any) => {
         e.preventDefault();
 
         setState("LOADING");
 
         const res = await fetch("/api/subscribeUser", {
             body: JSON.stringify({
-                email: inputRef.current.value,
+                email: inputRef && inputRef.current ? inputRef.current['value'] : "",
             }),
 
             headers: {
@@ -21,9 +21,9 @@ function LandingOverlay() {
 
             method: "POST",
         });
-        if (res.status === 201){
+        if (res.status === 201) {
             setState("SUCCESS")
-        }else {
+        } else {
             setState("ERROR")
         }
     };
@@ -55,9 +55,9 @@ function LandingOverlay() {
                                 type="email" placeholder="Deine E-Mail sieht hier gut aus"/>
                             <button type="submit" value="" name="sign-up"
                                     disabled={state === "LOADING"}
-                                className={`w-32 rounded-l-none hover:bg-red-400  bg-red-500 rounded-lg text-base font-medium  text-white p-5 border-2 border-transparent focus:outline-none focus:ring-offset-2 focus:ring-indigo-700 ${
-                                    state === "LOADING" ? "cursor-not-allowed" : "cursor-pointer"
-                                }`}>Sign-Up
+                                    className={`w-32 rounded-l-none hover:bg-red-400  bg-red-500 rounded-lg text-base font-medium  text-white p-5 border-2 border-transparent focus:outline-none focus:ring-offset-2 focus:ring-indigo-700 ${
+                                        state === "LOADING" ? "cursor-not-allowed" : "cursor-pointer"
+                                    }`}>Sign-Up
                                 <svg role="status"
                                      className={`inline w-4 h-4 ml-2 align-sub text-white animate-spin dark:text-gray-700 fill-green-500 dark:fill-gray-300 ${
                                          state === "LOADING" ? "block" : "hidden"

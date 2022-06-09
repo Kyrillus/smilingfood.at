@@ -3,11 +3,11 @@ import Image from 'next/image'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faInstagram, faTiktok} from "@fortawesome/free-brands-svg-icons";
 
-function Header({navbarOpen, setNavbarOpen}) {
+function Header({navbarOpen, setNavbarOpen}: { navbarOpen: any, setNavbarOpen: any }) {
     const scrollToLanding = () => document.getElementById('landing').scrollIntoView();
     const scrollToVision = () => document.getElementById('vision').scrollIntoView();
     const scrollToTeam = () => document.getElementById('team').scrollIntoView();
-    const scrollToContact = () => document.getElementById('contact').scrollIntoView();
+    const scrollToContact = () => document!.getElementById('contact')!.scrollIntoView();
     const genericHamburgerLine = `h-1 w-6 my-0.5 rounded-3xl bg-black transition ease transform duration-300`;
 
     return (
@@ -15,9 +15,13 @@ function Header({navbarOpen, setNavbarOpen}) {
 
             <div
                 className="flex text-xl lg:text-3xl items-center justify-end fixed w-full  h-24">
-                <div className="absolute left-5 top-5 h-[100px] w-[100px] lg:h-[150px] lg:w-[150px] ml-[24px] hover:scale-110 transition-all duration-300 align-base">
-                    <Image className="hover:cursor-pointer " onClick={() => {setNavbarOpen(false); scrollToLanding();}} src="/concept_logo_circle_v4.png"
-                           layout="fill" ></Image>
+                <div
+                    className="absolute left-5 top-5 h-[100px] w-[100px] lg:h-[150px] lg:w-[150px] ml-[24px] hover:scale-110 transition-all duration-300 align-base">
+                    <Image className="hover:cursor-pointer " onClick={() => {
+                        setNavbarOpen(false);
+                        scrollToLanding();
+                    }} src="/concept_logo_circle_v4.png"
+                           layout="fill"></Image>
                 </div>
                 <div className="hidden lg:flex space-x-14 pr-10 font-semibold ">
 
