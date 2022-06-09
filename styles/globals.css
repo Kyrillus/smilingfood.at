@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-    font-family: Sora, serif;
+html {
+    scroll-behavior: smooth;
 }
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: League Spartan, serif;
+}
+
+
+.custom-img {
+    object-fit: contain;
+    width: unset !important;
+    position: relative !important;
+    height: 100% !important;
+}
+/* Space Grotesk */
