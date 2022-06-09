@@ -83,9 +83,6 @@ function LandingOverlay() {
                     </div>
                 </div>
             </div>
-            <div className="fixed bottom-0 text-center w-[100%] z-10 font-medium">
-                <p>© 2022, SMILING FOOD. All rights reserved</p>
-            </div>
         </div>
     );
 }
