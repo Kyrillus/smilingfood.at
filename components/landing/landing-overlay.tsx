@@ -55,7 +55,7 @@ function LandingOverlay() {
                                 type="email" placeholder="Deine E-Mail sieht hier gut aus"/>
                             <button type="submit" value="" name="sign-up"
                                     disabled={state === "LOADING"}
-                                    className={`text-sm md:text-base w-24 whitespace-nowrap md:w-32 rounded-l-none hover:bg-red-400  bg-red-500 rounded-lg text-base font-medium  text-white p-5 border-2 border-transparent focus:outline-none focus:ring-offset-2 focus:ring-indigo-700 ${
+                                    className={`text-sm md:text-base w-24 whitespace-nowrap md:w-32 rounded-l-none hover:bg-red-400  bg-red-500 rounded-lg  font-medium  text-white p-5 border-2 border-transparent focus:outline-none focus:ring-offset-2 focus:ring-indigo-700 ${
                                         state === "LOADING" ? "cursor-not-allowed" : "cursor-pointer"
                                     }`}>Sign-Up
                                 <svg role="status"
