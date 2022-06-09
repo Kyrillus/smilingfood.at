@@ -12,7 +12,7 @@ import {DepthOfField, EffectComposer} from "@react-three/postprocessing";
 import LandingOverlay from "./landing-overlay";
 
 
-function Landing({speed = 1, count = 90, depth = 70, easing = (x: number) => Math.sqrt(1 - Math.pow(x - 1, 2))}) {
+function Landing({speed = 1, count = 50, depth = 70, easing = (x: number) => Math.sqrt(1 - Math.pow(x - 1, 2))}) {
     return (
         <div id="landing">
             <LandingOverlay/>
@@ -22,12 +22,14 @@ function Landing({speed = 1, count = 90, depth = 70, easing = (x: number) => Mat
                         camera={{position: [0, 0, 10], fov: 20, near: 0.01, far: depth + 15}}>
                     <spotLight position={[10, 20, 40]} penumbra={1} intensity={3} color="#51364d"/>
                     <Environment preset="sunset"/>
+                    {Array.from({length: count}, (_, i) => (
+                        <Pancake key={i} index={i} z={Math.round(easing(i / count) * depth + 15)} speed={speed}/>))}
+                    {/*
                     {Array.from({length: count / 3}, (_, i) => (
                         <Donut key={i} index={i} z={Math.round(easing(i / count) * depth + 15)} speed={speed}/>))}
+
                     {Array.from({length: count / 3}, (_, i) => (
-                        <Pancake key={i} index={i} z={Math.round(easing(i / count) * depth + 15)} speed={speed}/>))}
-                    {Array.from({length: count / 3}, (_, i) => (
-                        <Cupcake key={i} index={i} z={Math.round(easing(i / count) * depth + 15)} speed={speed}/>))}
+                        <Cupcake key={i} index={i} z={Math.round(easing(i / count) * depth + 15)} speed={speed}/>))} */}
                     <EffectComposer multisampling={0}>
                         <DepthOfField target={[0, 0, 60]} focalLength={0.3} bokehScale={5} height={800}/>
                     </EffectComposer>
