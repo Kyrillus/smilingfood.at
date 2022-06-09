@@ -12,7 +12,7 @@ import {DepthOfField, EffectComposer} from "@react-three/postprocessing";
 import LandingOverlay from "./landing-overlay";
 
 
-function Landing({speed = 1, count = 50, depth = 70, easing = (x: number) => Math.sqrt(1 - Math.pow(x - 1, 2))}) {
+function Landing({speed = 1, count = 60, depth = 70, easing = (x: number) => Math.sqrt(1 - Math.pow(x - 1, 2))}) {
     return (
         <div id="landing">
             <LandingOverlay/>
@@ -23,7 +23,7 @@ function Landing({speed = 1, count = 50, depth = 70, easing = (x: number) => Mat
                     <spotLight position={[10, 20, 40]} penumbra={1} intensity={3} color="#51364d"/>
                     <Environment preset="sunset"/>
                     {Array.from({length: count}, (_, i) => (
-                        <Pancake key={i} index={i} z={Math.round(easing(i / count) * depth + 15)} speed={speed}/>))}
+                        <Pancake key={i} index={i} z={Math.round(easing(i / count) * depth + 35)} speed={speed}/>))}
                     {/*
                     {Array.from({length: count / 3}, (_, i) => (
                         <Donut key={i} index={i} z={Math.round(easing(i / count) * depth + 15)} speed={speed}/>))}

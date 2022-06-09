@@ -47,7 +47,7 @@ function LandingOverlay() {
                     <div className="mt-2">
                         <form onSubmit={subscribeUser}>
                             <input
-                                className="bg-gray-100 rounded-lg rounded-r-none text-base  text-gray-800 p-5 w-[50vw] md:w-[37vw] border-2 border-transparent focus:outline-none focus:border-gray-500"
+                                className="bg-gray-100 rounded-lg rounded-r-none text-sm md:text-base  text-gray-800 p-5 w-[58vw] md:w-[37vw] border-2 border-transparent focus:outline-none focus:border-gray-500"
                                 ref={inputRef}
                                 required
                                 autoCapitalize="off"
@@ -55,7 +55,7 @@ function LandingOverlay() {
                                 type="email" placeholder="Deine E-Mail sieht hier gut aus"/>
                             <button type="submit" value="" name="sign-up"
                                     disabled={state === "LOADING"}
-                                    className={`w-32 rounded-l-none hover:bg-red-400  bg-red-500 rounded-lg text-base font-medium  text-white p-5 border-2 border-transparent focus:outline-none focus:ring-offset-2 focus:ring-indigo-700 ${
+                                    className={`text-sm md:text-base w-24 md:w-32 rounded-l-none hover:bg-red-400  bg-red-500 rounded-lg text-base font-medium  text-white p-5 border-2 border-transparent focus:outline-none focus:ring-offset-2 focus:ring-indigo-700 ${
                                         state === "LOADING" ? "cursor-not-allowed" : "cursor-pointer"
                                     }`}>Sign-Up
                                 <svg role="status"
