@@ -35,7 +35,8 @@ function Index() {
         <div>
             <Head>
                 <title>Smiling Food</title>
-                <meta property="og:title" content="Smiling Food" key="title"/>
+                <meta property="og:title" content="Smiling Food - Dein Happy End Ohne Zucker!" key="title"/>
+                <meta name="description" content="Genieße deine Lieblingsdesserts wie Brownies, Pancakes oder Marmorkuchen jetzt ganz ohne Zucker!  100% Geschmack. 100% Vegan. 0% Zucker."/>
                 <link rel="shortcut icon" href="/logo.png"/>
                 <link rel="preconnect" href="https://fonts.googleapis.com"/>
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
@@ -45,12 +46,13 @@ function Index() {
             <Header navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen}/>
             <MenuOverlay navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen}/>
             <Landing/>
-
+            <Vision/>
+            <Team/>
             {/*
 
 
-            <Vision/>
-            <Team/>
+
+
             <Contact/> */}
 
 
