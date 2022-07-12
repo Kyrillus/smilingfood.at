@@ -12,7 +12,8 @@ function Team() {
                             <div className="w-full md:w-1/2 p-7">
                                 <div className="flex flex-wrap -m-3.5">
                                     <div className="w-auto p-3.5">
-                                        <img className="border w-24 h-24 md:w-32 md:h-32 rounded-full object-cover" src="/team/lisa.png"
+                                        <img className="border w-24 h-24 md:w-32 md:h-32 rounded-full object-cover"
+                                             src="/team/lisa.png"
                                              alt=""/>
                                     </div>
                                     <div className="flex-1 p-3.5">
@@ -30,7 +31,8 @@ function Team() {
                             <div className="w-full md:w-1/2 p-7">
                                 <div className="flex flex-wrap -m-3.5">
                                     <div className="w-auto p-3.5">
-                                        <img className="border w-24 h-24 md:w-32 md:h-32 rounded-full object-cover" src="/team/max.png"
+                                        <img className="border w-24 h-24 md:w-32 md:h-32 rounded-full object-cover"
+                                             src="/team/max.png"
                                              alt=""/>
                                     </div>
                                     <div className="flex-1 p-3.5">
@@ -48,15 +50,17 @@ function Team() {
                             <div className="w-full md:w-1/2 p-7">
                                 <div className="flex md:justify-end flex-wrap md:flex-wrap-reverse -m-3.5">
                                     <div className="flex-1 p-3.5 order-1">
-                                        <p className="mb-6 text-lg text-gray-700 italic">"Bereits in der Schule habe ich
-                                            mich für die Entwicklung von neuen Produkten interessiert und ... Bei
-                                            Smiling Food bin ich für die Produktentwicklung sowie das Marketing
-                                            zuständig ..."</p>
+                                        <p className="mb-6 text-lg text-gray-700 italic">"Bereits sehr früh habe ich
+                                            begonnen zu programmieren und mich für die Informatik zu interessieren.
+                                            Momentan studiere ich Software-Engineering an der TU-Wien und arbeite
+                                            Teilzeit als Softwareentwickler. Bei Smiling Food bin ich für die Webseite
+                                            und sonstige technische Challenges zuständig."</p>
                                         <h3 className="font-heading font-bold text-lg text-[#628474]">Kyrill, <span
                                             className="font-light">Web Development</span></h3>
                                     </div>
                                     <div className="w-auto p-3.5 md:order-1">
-                                        <img className="border w-24 h-24 md:w-32 md:h-32 rounded-full object-cover" src="/team/kyrillus.png"
+                                        <img className="border w-24 h-24 md:w-32 md:h-32 rounded-full object-cover"
+                                             src="/team/kyrillus.png"
                                              alt=""/>
                                     </div>
                                 </div>
@@ -72,7 +76,8 @@ function Team() {
                                             className="font-light">Food-Tech</span></h3>
                                     </div>
                                     <div className="w-auto p-3.5 md:order-1">
-                                        <img className="border w-24 h-24 md:w-32 md:h-32 rounded-full object-cover" src="/team/sami.png"
+                                        <img className="border w-24 h-24 md:w-32 md:h-32 rounded-full object-cover"
+                                             src="/team/sami.png"
                                              alt=""/>
                                     </div>
                                 </div>
