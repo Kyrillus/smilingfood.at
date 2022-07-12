@@ -11,8 +11,8 @@ function Team() {
                         <div className="flex flex-wrap -m-7 mb-12">
                             <div className="w-full md:w-1/2 p-7">
                                 <div className="flex flex-col lg:flex-row -m-3.5">
-                                    <div className="w-auto p-3.5">
-                                        <img className="border w-24 h-24 md:w-32 md:h-32 rounded-full object-cover"
+                                    <div className="flex justify-end w-auto p-3.5 pr-8 md:pr-3.5">
+                                        <img className="border w-24 h-24 lg:w-32 lg:h-32 rounded-full object-cover"
                                              src="/team/lisa.png"
                                              alt=""/>
                                     </div>
@@ -30,8 +30,8 @@ function Team() {
                             </div>
                             <div className="w-full md:w-1/2 p-7">
                                 <div className="flex flex-col lg:flex-row -m-3.5">
-                                    <div className="w-auto p-3.5">
-                                        <img className="border w-24 h-24 md:w-32 md:h-32 rounded-full object-cover"
+                                    <div className="flex justify-end w-auto p-3.5 pr-8 md:pr-3.5">
+                                        <img className="border w-24 h-24 lg:w-32 lg:h-32 rounded-full object-cover"
                                              src="/team/max.png"
                                              alt=""/>
                                     </div>
@@ -58,8 +58,8 @@ function Team() {
                                         <h3 className="font-heading font-bold text-lg text-[#628474]">Kyrill, <span
                                             className="font-light">Web Development</span></h3>
                                     </div>
-                                    <div className="w-auto p-3.5 lg:order-1">
-                                        <img className="border w-24 h-24 md:w-32 md:h-32 rounded-full object-cover"
+                                    <div className="flex justify-end w-auto p-3.5 pr-8 md:pr-3.5 lg:order-1">
+                                        <img className="border w-24 h-24 lg:w-32 lg:h-32 rounded-full object-cover"
                                              src="/team/kyrillus.png"
                                              alt=""/>
                                     </div>
@@ -75,8 +75,8 @@ function Team() {
                                         <h3 className="font-heading font-bold text-lg text-[#628474]">Sami, <span
                                             className="font-light">Food-Tech</span></h3>
                                     </div>
-                                    <div className="w-auto p-3.5 lg:order-1">
-                                        <img className="border w-24 h-24 md:w-32 md:h-32 rounded-full object-cover"
+                                    <div className="flex justify-end w-auto p-3.5 pr-8 md:pr-3.5 lg:order-1">
+                                        <img className="border w-24 h-24 lg:w-32 lg:h-32 rounded-full object-cover"
                                              src="/team/sami.png"
                                              alt=""/>
                                     </div>
