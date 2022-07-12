@@ -4,6 +4,7 @@ import Header from "../components/menu/header";
 import Landing from "../components/landing/landing";
 import Vision from "../components/sections/vision";
 import Team from "../components/sections/team";
+import Footer from "../components/sections/footer";
 import Contact from "../components/sections/contact";
 import MenuOverlay from "../components/menu/menuOverlay";
 
@@ -48,6 +49,7 @@ function Index() {
             <Landing/>
             <Vision/>
             <Team/>
+            <Footer/>
             {/*
 
 

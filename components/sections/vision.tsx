@@ -4,7 +4,7 @@ import Image from "next/image";
 function Vision() {
     return (
         <div id="vision">
-            <section className="h-screen grid place-items-center min-h-[50em] w-full min-h-screen bg-[#f2f1ec] ">
+            <section className="grid place-items-center w-full min-h-screen bg-[#f2f1ec] ">
                 <div className="flex-col pl-[10vw] pr-[10vw]  w-full">
                     <h1 className="text-8xl text-[#3f4739] font-extrabold">
                         Unsere Vision

@@ -3,7 +3,7 @@ import React from 'react';
 function Team() {
     return (
         <div id="team">
-            <section className="h-screen grid place-items-center w-full min-h-screen min-h-[50em] bg-white">
+            <section className="grid place-items-center w-full min-h-screen bg-white">
                 <div className="flex-col text-8xl pl-[10vw] pr-[10vw] pt-12 pb-12">
                     <h1 className="font-extrabold">Team</h1>
                     <div className=" mx-auto px-4 mt-32">
@@ -30,7 +30,7 @@ function Team() {
                             <div className="w-full md:w-1/2 p-7">
                                 <div className="flex flex-wrap -m-3.5">
                                     <div className="w-auto p-3.5">
-                                        <img className="border w-24 h-24 md:w-32 md:h-32 rounded-full object-cover" src="/team/lisa.png"
+                                        <img className="border w-24 h-24 md:w-32 md:h-32 rounded-full object-cover" src="/team/max.png"
                                              alt=""/>
                                     </div>
                                     <div className="flex-1 p-3.5">
@@ -38,8 +38,8 @@ function Team() {
                                             mich für die Entwicklung von neuen Produkten interessiert und ... Bei
                                             Smiling Food bin ich für die Produktentwicklung sowie das Marketing
                                             zuständig ..."</p>
-                                        <h3 className="font-heading font-bold text-lg text-[#628474]">Lisa, <span
-                                            className="font-light">Marketing & Sales</span></h3>
+                                        <h3 className="font-heading font-bold text-lg text-[#628474]">Max, <span
+                                            className="font-light">Operations & Business Development</span></h3>
                                     </div>
                                 </div>
                             </div>
@@ -52,11 +52,11 @@ function Team() {
                                             mich für die Entwicklung von neuen Produkten interessiert und ... Bei
                                             Smiling Food bin ich für die Produktentwicklung sowie das Marketing
                                             zuständig ..."</p>
-                                        <h3 className="font-heading font-bold text-lg text-[#628474]">Lisa, <span
-                                            className="font-light">Marketing & Sales</span></h3>
+                                        <h3 className="font-heading font-bold text-lg text-[#628474]">Kyrill, <span
+                                            className="font-light">Web Development</span></h3>
                                     </div>
                                     <div className="w-auto p-3.5 md:order-1">
-                                        <img className="border w-24 h-24 md:w-32 md:h-32 rounded-full object-cover" src="/team/lisa.png"
+                                        <img className="border w-24 h-24 md:w-32 md:h-32 rounded-full object-cover" src="/team/kyrillus.png"
                                              alt=""/>
                                     </div>
                                 </div>
@@ -68,11 +68,11 @@ function Team() {
                                             mich für die Entwicklung von neuen Produkten interessiert und ... Bei
                                             Smiling Food bin ich für die Produktentwicklung sowie das Marketing
                                             zuständig ..."</p>
-                                        <h3 className="font-heading font-bold text-lg text-[#628474]">Lisa, <span
-                                            className="font-light">Marketing & Sales</span></h3>
+                                        <h3 className="font-heading font-bold text-lg text-[#628474]">Sami, <span
+                                            className="font-light">Food-Tech</span></h3>
                                     </div>
                                     <div className="w-auto p-3.5 md:order-1">
-                                        <img className="border w-24 h-24 md:w-32 md:h-32 rounded-full object-cover" src="/team/lisa.png"
+                                        <img className="border w-24 h-24 md:w-32 md:h-32 rounded-full object-cover" src="/team/sami.png"
                                              alt=""/>
                                     </div>
                                 </div>
