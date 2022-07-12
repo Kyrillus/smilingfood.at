@@ -19,11 +19,11 @@ function Landing({speed = 0.9, count = 65, depth = 80, easing = (x: number) => M
             <section className="h-screen w-full min-h-[55em] bg-[#ffbaba] overflow-hidden">
                 <Canvas gl={{antialias: true, toneMapping: THREE.NoToneMapping}}
                         className="overscroll-none z-0" dpr={[1, 1.5]}
-                        camera={{position: [0, 0, 10], fov: 12, near: 0.01, far: depth + 15}}>
+                        camera={{position: [0, 0, 10], fov: 15, near: 0.01, far: depth + 15}}>
                     <spotLight position={[10, 20, 40]} penumbra={1} intensity={3} color="#51364d"/>
                     <Environment preset="sunset"/>
                     {Array.from({length: count}, (_, i) => (
-                        <Pancake key={i} index={i} z={Math.round(easing(i / count) * depth + 15 )} speed={speed}/>))}
+                        <Pancake key={i} index={i} z={Math.round(easing(i / count) * depth + 18 )} speed={speed}/>))}
                     {/*
                     {Array.from({length: count / 3}, (_, i) => (
                         <Donut key={i} index={i} z={Math.round(easing(i / count) * depth + 15)} speed={speed}/>))}

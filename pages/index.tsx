@@ -2,9 +2,9 @@ import React, {useEffect, useState} from 'react';
 import Head from 'next/head'
 import Header from "../components/menu/header";
 import Landing from "../components/landing/landing";
-import Vision from "../components/vision";
-import Team from "../components/team";
-import Contact from "../components/contact";
+import Vision from "../components/sections/vision";
+import Team from "../components/sections/team";
+import Contact from "../components/sections/contact";
 import MenuOverlay from "../components/menu/menuOverlay";
 
 function Index() {

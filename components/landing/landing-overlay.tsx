@@ -44,7 +44,7 @@ function LandingOverlay() {
                         <h1 className="text-white">Lass dich als erstes von unseren </h1>
                         <h1 className="text-red-500">Desserts verführen.</h1>
                     </div>
-                    <div className="mt-2">
+                    <div className="mt-2 flex-nowrap">
                         <form onSubmit={subscribeUser}>
                             <input
                                 className="bg-gray-100 rounded-lg rounded-r-none text-sm md:text-base  text-gray-800 p-5 w-[58vw] md:w-[37vw] border-2 border-transparent focus:outline-none focus:border-gray-500"
