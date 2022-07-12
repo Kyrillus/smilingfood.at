@@ -11,7 +11,7 @@ function Vision() {
                     </h1>
 
                     <div className="flex flex-row w-full text-2xl xl:text-3xl 2xl:text-4xl pt-12 md:pt-4">
-                        <h3 className="leading-relaxed h-[20vh]">
+                        <h3 className="leading-relaxed">
                             Wir möchten den Menschen helfen, sich gesünder zu ernähren, indem wir eine Marke aufbauen, die sich auf zuckerfreie Produkte konzentriert, bei denen unsere Kunden darauf vertrauen können, dass nur hochwertige Zutaten und gesunde Zuckerersatzstoffe verwendet werden.
 
                         </h3>
