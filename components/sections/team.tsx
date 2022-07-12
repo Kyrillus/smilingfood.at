@@ -10,7 +10,7 @@ function Team() {
 
                         <div className="flex flex-wrap -m-7 mb-12">
                             <div className="w-full md:w-1/2 p-7">
-                                <div className="flex flex-wrap -m-3.5">
+                                <div className="flex flex-col lg:flex-row -m-3.5">
                                     <div className="w-auto p-3.5">
                                         <img className="border w-24 h-24 md:w-32 md:h-32 rounded-full object-cover"
                                              src="/team/lisa.png"
@@ -29,7 +29,7 @@ function Team() {
                                 </div>
                             </div>
                             <div className="w-full md:w-1/2 p-7">
-                                <div className="flex flex-wrap -m-3.5">
+                                <div className="flex flex-col lg:flex-row -m-3.5">
                                     <div className="w-auto p-3.5">
                                         <img className="border w-24 h-24 md:w-32 md:h-32 rounded-full object-cover"
                                              src="/team/max.png"
@@ -48,7 +48,7 @@ function Team() {
                         </div>
                         <div className="flex flex-wrap -m-7">
                             <div className="w-full md:w-1/2 p-7">
-                                <div className="flex md:justify-end flex-wrap md:flex-wrap-reverse -m-3.5">
+                                <div className="flex md:justify-end flex-col lg:flex-row md:flex-wrap-reverse -m-3.5">
                                     <div className="flex-1 p-3.5 order-1">
                                         <p className="mb-6 text-lg text-gray-700 italic">"Bereits sehr früh habe ich
                                             begonnen zu programmieren und mich für die Informatik zu interessieren.
@@ -58,7 +58,7 @@ function Team() {
                                         <h3 className="font-heading font-bold text-lg text-[#628474]">Kyrill, <span
                                             className="font-light">Web Development</span></h3>
                                     </div>
-                                    <div className="w-auto p-3.5 md:order-1">
+                                    <div className="w-auto p-3.5 lg:order-1">
                                         <img className="border w-24 h-24 md:w-32 md:h-32 rounded-full object-cover"
                                              src="/team/kyrillus.png"
                                              alt=""/>
@@ -66,7 +66,7 @@ function Team() {
                                 </div>
                             </div>
                             <div className="w-full md:w-1/2 p-7">
-                                <div className="flex md:justify-end flex-wrap md:flex-wrap-reverse -m-3.5">
+                                <div className="flex md:justify-end flex-col lg:flex-row md:flex-wrap-reverse -m-3.5">
                                     <div className="flex-1 p-3.5 order-1">
                                         <p className="mb-6 text-lg text-gray-700 italic">"Bereits in der Schule habe ich
                                             mich für die Entwicklung von neuen Produkten interessiert und ... Bei
@@ -75,7 +75,7 @@ function Team() {
                                         <h3 className="font-heading font-bold text-lg text-[#628474]">Sami, <span
                                             className="font-light">Food-Tech</span></h3>
                                     </div>
-                                    <div className="w-auto p-3.5 md:order-1">
+                                    <div className="w-auto p-3.5 lg:order-1">
                                         <img className="border w-24 h-24 md:w-32 md:h-32 rounded-full object-cover"
                                              src="/team/sami.png"
                                              alt=""/>
