@@ -2,9 +2,10 @@ import React, {useEffect, useState} from 'react';
 import Head from 'next/head'
 import Header from "../components/menu/header";
 import Landing from "../components/landing/landing";
-import Vision from "../components/vision";
-import Team from "../components/team";
-import Contact from "../components/contact";
+import Vision from "../components/sections/vision";
+import Team from "../components/sections/team";
+import Footer from "../components/sections/footer";
+import Contact from "../components/sections/contact";
 import MenuOverlay from "../components/menu/menuOverlay";
 
 function Index() {
@@ -35,7 +36,8 @@ function Index() {
         <div>
             <Head>
                 <title>Smiling Food</title>
-                <meta property="og:title" content="Smiling Food" key="title"/>
+                <meta property="og:title" content="Smiling Food - Dein Happy End Ohne Zucker!" key="title"/>
+                <meta name="description" content="Genieße deine Lieblingsdesserts wie Brownies, Pancakes oder Marmorkuchen jetzt ganz ohne Zucker!  100% Geschmack. 100% Vegan. 0% Zucker."/>
                 <link rel="shortcut icon" href="/logo.png"/>
                 <link rel="preconnect" href="https://fonts.googleapis.com"/>
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
@@ -45,12 +47,14 @@ function Index() {
             <Header navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen}/>
             <MenuOverlay navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen}/>
             <Landing/>
-
+            <Vision/>
+            <Team/>
+            <Footer/>
             {/*
 
 
-            <Vision/>
-            <Team/>
+
+
             <Contact/> */}
 
 

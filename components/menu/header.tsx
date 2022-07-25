@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faInstagram, faTiktok} from "@fortawesome/free-brands-svg-icons";
+import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 function Header({navbarOpen, setNavbarOpen}: { navbarOpen: any, setNavbarOpen: any }) {
     const scrollToLanding = () => document.getElementById('landing').scrollIntoView();
@@ -23,7 +24,7 @@ function Header({navbarOpen, setNavbarOpen}: { navbarOpen: any, setNavbarOpen: a
                     }} src="/logo_circle.png"
                            layout="fill"></Image>
                 </div>
-                <div className="hidden lg:flex space-x-14 pr-10 font-semibold ">
+                <div className="hidden lg:flex lg:items-end space-x-14 pr-10 font-semibold ">
 
                     <div className="flex mt-8 space-x-8 justify-center">
                         <div
@@ -38,11 +39,12 @@ function Header({navbarOpen, setNavbarOpen}: { navbarOpen: any, setNavbarOpen: a
                                 <FontAwesomeIcon icon={faTiktok}/>
                             </a>
                         </div>
-                        <p>|</p>
-                        <div>
-                            <a href="mailto:office@smilingfood.at">Contact us!</a>
-                            <p></p>
+                        <div className="w-9 h-9 hover:cursor-pointer hover:-translate-y-2 transition-all duration-500 ease-in-out">
+                            <a href="mailto:office@smilingfood.at">
+                                <FontAwesomeIcon icon={faEnvelope}/>
+                            </a>
                         </div>
+                        <p className="font-light">|</p>
                         {/*
                             <div className="w-9 h-9 hover:cursor-pointer hover:-translate-y-2 transition-all duration-500 ease-in-out">
                                 <FontAwesomeIcon icon={faFacebook} />
@@ -50,14 +52,16 @@ function Header({navbarOpen, setNavbarOpen}: { navbarOpen: any, setNavbarOpen: a
                             <div className="w-8 h-8 hover:cursor-pointer hover:-translate-y-2 transition-all duration-500 ease-in-out">
                                 <FontAwesomeIcon icon={faLinkedin} />
                             </div> */}
-                    </div>
-                    {/*
+
+
                     <p className="hover:cursor-pointer" onClick={scrollToVision}>
                         Vision
                     </p>
                     <p className="hover:cursor-pointer" onClick={scrollToTeam}>
                         Team
                     </p>
+                    </div>
+                    {/*
                     <p className="hover:cursor-pointer" onClick={scrollToContact}>
                         Contact
                     </p>
