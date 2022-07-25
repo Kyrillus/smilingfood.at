@@ -17,10 +17,12 @@ function Team() {
                                              alt=""/>
                                     </div>
                                     <div className="flex-1 p-3.5">
-                                        <p className="mb-6 text-lg text-gray-700 italic">"Bereits in der Schule habe ich
-                                            mich für die Entwicklung von neuen Produkten interessiert und ... Bei
-                                            Smiling Food bin ich für die Produktentwicklung sowie das Marketing
-                                            zuständig ..."</p>
+                                        <p className="mb-6 text-lg text-gray-700 italic">"Das kann man doch besser
+                                            machen" - und aus man wurde ich. Selbst Dinge in die Hand zu nehmen, anstatt
+                                            sich zu beschweren zeichnet mich aus. Ich liebe es innovative Lösungen für
+                                            Probleme zu finden und dafür zu sorgen, dass sie funktionieren. Bei Smiling
+                                            Food bin ich the woman to go wenn es um Strategie, Organisation, Marketing
+                                            und Product planning geht.</p>
                                         <h3 className="font-heading font-bold text-lg text-[#628474]">Lisa, <span
                                             className="
 
@@ -36,10 +38,11 @@ function Team() {
                                              alt=""/>
                                     </div>
                                     <div className="flex-1 p-3.5">
-                                        <p className="mb-6 text-lg text-gray-700 italic">"Bereits in der Schule habe ich
-                                            mich für die Entwicklung von neuen Produkten interessiert und ... Bei
-                                            Smiling Food bin ich für die Produktentwicklung sowie das Marketing
-                                            zuständig ..."</p>
+                                        <p className="mb-6 text-lg text-gray-700 italic">Ein cleaner Schreibtisch,
+                                            Handy, Laptop, Bildschirm mehr nicht. Ich mag es simple. Wenn ich will
+                                            möchte ich die ganze Nacht arbeiten, 9 to 5 ist nichts für mich. Tagsüber
+                                            bin ich der Ansprechpartner für Operations und Logistik. Doch sobald es
+                                            dunkel wird dreht sich bei mir alles um unser Business Developement.</p>
                                         <h3 className="font-heading font-bold text-lg text-[#628474]">Max, <span
                                             className="font-light">Operations & Business Development</span></h3>
                                     </div>
@@ -50,11 +53,12 @@ function Team() {
                             <div className="w-full md:w-1/2 p-7">
                                 <div className="flex md:justify-end flex-col lg:flex-row md:flex-wrap-reverse -m-3.5">
                                     <div className="flex-1 p-3.5 order-1">
-                                        <p className="mb-6 text-lg text-gray-700 italic">"Bereits sehr früh habe ich
-                                            begonnen zu programmieren und mich für die Informatik zu interessieren.
-                                            Momentan studiere ich Software-Engineering an der TU-Wien und arbeite
-                                            Teilzeit als Softwareentwickler. Bei Smiling Food bin ich für die Webseite
-                                            und sonstige technische Challenges zuständig."</p>
+                                        <p className="mb-6 text-lg text-gray-700 italic">Dinge zu erschaffen war immer
+                                            schon meine größte Leidenschaft. Technologie hat es mir ermöglicht meine
+                                            Ideen mit ein paar Zeilen Code in die Wirklichkeit zu zaubern und meine
+                                            kreative und analytische Persönlichkeit zu bündeln. Bei Smiling-Food bin ich
+                                            für die Web-Entwicklung und Technologiebezogene Challenges
+                                            verantwortlich.</p>
                                         <h3 className="font-heading font-bold text-lg text-[#628474]">Kyrill, <span
                                             className="font-light">Web Development</span></h3>
                                     </div>
@@ -68,10 +72,10 @@ function Team() {
                             <div className="w-full md:w-1/2 p-7">
                                 <div className="flex md:justify-end flex-col lg:flex-row md:flex-wrap-reverse -m-3.5">
                                     <div className="flex-1 p-3.5 order-1">
-                                        <p className="mb-6 text-lg text-gray-700 italic">"Bereits in der Schule habe ich
-                                            mich für die Entwicklung von neuen Produkten interessiert und ... Bei
-                                            Smiling Food bin ich für die Produktentwicklung sowie das Marketing
-                                            zuständig ..."</p>
+                                        <p className="mb-6 text-lg text-gray-700 italic">"Schon seit meiner Kindheit
+                                            liebe ich es Wissen mit Kreativität zu kombinieren. Arbeiten mit Hobbys. Im
+                                            spielerischen Umgang Neues auszuprobieren und zu entwickeln bewegt meine
+                                            Welt voran.</p>
                                         <h3 className="font-heading font-bold text-lg text-[#628474]">Sami, <span
                                             className="font-light">Food-Tech</span></h3>
                                     </div>

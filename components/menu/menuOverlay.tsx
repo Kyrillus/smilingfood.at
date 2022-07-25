@@ -14,7 +14,7 @@ function MenuOverlay({navbarOpen, setNavbarOpen}) {
     return (
         <div>
             <nav
-                className={`fixed flex top-0 left-0 w-full px-10 z-20 h-screen pt-64 overflow-y-scroll text-6xl bg-[#628474] transform transition-all duration-500 ${
+                className={`fixed flex top-0 left-0 w-full px-10 z-20 h-screen pt-44 overflow-y-scroll text-6xl bg-[#628474] transform transition-all duration-500 ${
                     navbarOpen ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-full"
                 }`}>
                 <ul className="w-full flex flex-col gap-8  text-center">
