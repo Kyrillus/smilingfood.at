@@ -56,7 +56,7 @@ function Team() {
                                         <p className="mb-6 text-lg text-gray-700 italic">Dinge zu erschaffen war immer
                                             schon meine größte Leidenschaft. Technologie hat es mir ermöglicht meine
                                             Ideen mit ein paar Zeilen Code in die Wirklichkeit zu zaubern und meine
-                                            kreative und analytische Persönlichkeit zu bündeln. Bei Smiling-Food bin ich
+                                            kreative und analytische Persönlichkeit zu bündeln. Bei Smiling Food bin ich
                                             für die Web-Entwicklung und Technologiebezogene Challenges
                                             verantwortlich.</p>
                                         <h3 className="font-heading font-bold text-lg text-[#628474]">Kyrill, <span
@@ -75,7 +75,8 @@ function Team() {
                                         <p className="mb-6 text-lg text-gray-700 italic">"Schon seit meiner Kindheit
                                             liebe ich es Wissen mit Kreativität zu kombinieren. Arbeiten mit Hobbys. Im
                                             spielerischen Umgang Neues auszuprobieren und zu entwickeln bewegt meine
-                                            Welt voran.</p>
+                                            Welt voran. Bei der Rezeptur unserer Produkte sorge ich für eine leckere
+                                            aber auch gesunde balance.</p>
                                         <h3 className="font-heading font-bold text-lg text-[#628474]">Sami, <span
                                             className="font-light">Food-Tech</span></h3>
                                     </div>
